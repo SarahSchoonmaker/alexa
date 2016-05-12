@@ -135,8 +135,8 @@ var APHISTORY_FACTS = [
     "Primary Sources are the original records of an event.  They include eyewitness reports, records created at the time of an event, speeches, and letters by people involved in the event, photographs and artifacts.",
     "Secondary Sources are the later writings and interpretations of historians and writers.  Often secondary sources, like textbooks and articles, provide summaries of information found in primary sources.",
     "Republicanism was an attitude toward society in the late 1700s based on the belief that the good virtue and morality of the people was essential to sustain the republican form of government.",
-    "Industrial Revolution was the era in which a change from household industries to factory production using powered machinery took place."
-
+    "Industrial Revolution was the era in which a change from household industries to factory production using powered machinery took place.",
+    "Annexation of Texas, 1845 was the annexation of the Republic of Texas to the United States of America as the 28th state. This act quickly led to the Mexican-American War"
 ];
 
 /**
