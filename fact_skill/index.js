@@ -21,11 +21,11 @@
 /**
  * App ID for the skill
  */
-var APP_ID = undefined; //replace with "amzn1.echo-sdk-ams.app.c65fdd0b-7a27-47ea-8fb1-10df0bc37174";
+var APP_ID = 'amzn1.echo-sdk-ams.app.c65fdd0b-7a27-47ea-8fb1-10df0bc37174'; //replace with "amzn1.echo-sdk-ams.app.c65fdd0b-7a27-47ea-8fb1-10df0bc37174";
 
-/**
- * Array containing AP History Exam facts.
- */
+// /**
+//  * Array containing AP History Exam facts.
+//  */
 var APHISTORY_FACTS = [
     "Copperheads nickname was given to those who opposed Lincoln's goal to forcefully restore the Confederate States into the Union.",
     "The proclamation of 1763 forbade colonists to settle west of the Appalachian Mountains.",
@@ -85,21 +85,21 @@ var APHISTORY_FACTS = [
     "Lincoln’s Second Inaugural Address was meant to help heal and restore the country after four years of Civil War.",
     "The Great Compromise created two houses of Congress.  One based on population, the other gave equal representation to each state.",
     "Sam Adams was a member of the Sons of Liberty who started the Committee of Correspondence to stir public support for American independence.",
-    "Ben Franklin was an inventor, statesman, diplomat, signer of the Declaration of Independence and delegate to Constitutional Convention."
-    "King George III was the King of England who disbanded the colonial legislatures, taxed the colonies, and refused the Olive Branch Petition leading to the final break with the colonies."
-    "Thomas Jefferson wrote the Declaration of Independence; became the 3rd President of the United States and purchased the Louisiana territory, doubling the size of the United States."
+    "Ben Franklin was an inventor, statesman, diplomat, signer of the Declaration of Independence and delegate to Constitutional Convention.",
+    "King George III was the King of England who disbanded the colonial legislatures, taxed the colonies, and refused the Olive Branch Petition leading to the final break with the colonies.",
+    "Thomas Jefferson wrote the Declaration of Independence; became the 3rd President of the United States and purchased the Louisiana territory, doubling the size of the United States.",
     "Thomas Paine wrote pamphlets like Common Sense and The Crisis to encourage American independence and resolve.",
     "George Washington was the leader of the Continental Army who became the first President of the United States.",
-    "Andrew Jackson was the leader of the original Democratic Party and a “President of the people”. He was also responsible for the Trail of Tears, which forced Native Americans west of the Mississippi River."
+    "Andrew Jackson was the leader of the original Democratic Party and a \"President of the people\". He was also responsible for the Trail of Tears, which forced Native Americans west of the Mississippi River.",
     "John C. Calhoun was a South Carolina Congressman and Senator who spoke for the South before the Civil War.",
     "Henry Clay was a powerful Kentucky Congressman and Senator who proposed the American System and the Compromise of 1850.",
     "Daniel Webster was a Massachusetts Congressman and Senator who spoke for the North and the preservation of the Union.",
-    "Jefferson Davis was the President of the Confederacy during the Civil War."
+    "Jefferson Davis was the President of the Confederacy during the Civil War.",
     "Ulysses S. Grant was the General of the Union Army and was responsible for winning the Civil War for the North.",
-    "Robert E. Lee was the General of the Confederate Army."
+    "Robert E. Lee was the General of the Confederate Army.",
     "Abraham Lincoln was the 16th President of the United States who successfully put the Union back together only to be assassinated 5 days after the Civil War ended.",
     "Alexander Hamilton was a leader of the Federalists, first Treasurer of the United States, creator of the Bank of the U.S., and killed in a duel by the Vice President of the United States, Aaron Burr.",
-    "Patrick Henry was a passionate patriot who became famous for his fiery speeches in favor of American independence.  His most famous quote included the words, “Give me liberty or give me death!”"
+    "Patrick Henry was a passionate patriot who became famous for his fiery speeches in favor of American independence.  His most famous quote included the words, \"Give me liberty or give me death!\"",
     "James Madison is considered to be the Father of the Constitution.",
     "Frederick Douglass was a former slave who became the best-known black abolitionist in the country.",
     "James Monroe was the author of the Monroe Doctrine, which shut down the western hemisphere to European expansion or interference.",
@@ -136,7 +136,7 @@ var APHISTORY_FACTS = [
     "Secondary Sources are the later writings and interpretations of historians and writers.  Often secondary sources, like textbooks and articles, provide summaries of information found in primary sources.",
     "Republicanism was an attitude toward society in the late 1700s based on the belief that the good virtue and morality of the people was essential to sustain the republican form of government.",
     "Industrial Revolution was the era in which a change from household industries to factory production using powered machinery took place.",
-    "Annexation of Texas, 1845 was the annexation of the Republic of Texas to the United States of America as the 28th state. This act quickly led to the Mexican-American War"
+    "Annexation of Texas, 1845 was the annexation of the Republic of Texas to the United States of America as the 28th state. This act quickly led to the Mexican-American War."
 ];
 
 /**
@@ -202,6 +202,7 @@ APhistory.prototype.intentHandlers = {
  * Gets a random new fact from the list and returns to the user.
  */
 function handleNewFactRequest(response) {
+    //APHISTORY_FACTS = ['hello'];
     // Get a random history fact from the history facts list
     var factIndex = Math.floor(Math.random() * APHISTORY_FACTS.length);
     var fact = APHISTORY_FACTS[factIndex];
@@ -215,7 +216,7 @@ function handleNewFactRequest(response) {
 // Create the handler that responds to the Alexa Request.
 exports.handler = function (event, context) {
     // Create an instance of the AP History Fact skill.
-    var APhistory = new APhistory();
-    APhistory.execute(event, context);
+    var aPhistory = new APhistory();
+    aPhistory.execute(event, context);
 };
 
