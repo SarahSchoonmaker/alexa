@@ -21,7 +21,7 @@
 /**
  * App ID for the skill
  */
-var APP_ID = undefined; //replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
+var APP_ID = undefined; //replace with "amzn1.echo-sdk-ams.app.c65fdd0b-7a27-47ea-8fb1-10df0bc37174";
 
 /**
  * Array containing space facts.
@@ -435,7 +435,7 @@ function handleNewFactRequest(response) {
 
 // Create the handler that responds to the Alexa Request.
 exports.handler = function (event, context) {
-    // Create an instance of the SpaceGeek skill.
+    // Create an instance of the APHistory skill.
     var APhistory = new APhistory();
     APhistory.execute(event, context);
 };

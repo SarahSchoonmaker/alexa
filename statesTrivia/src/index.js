@@ -38,7 +38,7 @@ var questions = [
     },
 
     {
-        "The final episode of ‘The Sopranos’ was filmed at this popular New Jersey ice cream parlor": [
+        "The final episode of The Sopranos was filmed at this popular New Jersey ice cream parlor": [
             "Holsten’s in Bloomfield",
             "Halo Pub in Princeton",
             "Ice Cream on nine in Howell",
@@ -55,10 +55,10 @@ var questions = [
     },
     {
         "Which ocean is to the east of Massachusetts?": [
-            "Atlantic",
-            "Pacific",
-            "Indian",
-            "Antarctic"
+            "The Atlantic ocean",
+            "The Pacific ocean",
+            "The Indian ocean",
+            "The Antarctic ocean"
         ]
     },
     {
@@ -71,10 +71,10 @@ var questions = [
     },
     {
         "Which is Ohio’s state tree?": [
-            "Buckeye tree",
-            "Oak tree",
-            "Pine tree",
-            "Apple tree"
+            "The Buckeye tree",
+            "The Oak tree",
+            "The Pine tree",
+            "The Apple tree"
         ]
     },
     {
@@ -95,30 +95,30 @@ var questions = [
     },
     {
         "What is the motto of Virginia?": [
-            "Sic semper tyrannis",
+            "The motto is Sic semper tyrannis",
             "The motto is Semper idem",
             "The motto is God, union, liberty",
-            "Peace and justice"
+            "The motto is Peace and justice"
         ]
     },
     {
         "What do the two men depicted on West Virginia's seal and the state flag represent?": [
-            "Agriculture and mining",
-            "Native Americans and European Settlers",
-            "Separation of Church and State",
-            "Exploration and farming"
+            "The two men represent Agriculture and mining",
+            "The two men represent Native Americans and European Settlers",
+            "The two men represent Separation of Church and State",
+            "The two men represent Exploration and farming"
         ]
     },
     {
         "North Carolina is known by two nicknames. The more popular one is Tar Heel State; what is the less popular nickname?": [
-            "Old North",
-            "Glory North",
-            "Ocean State",
-            "Palmetto State"
+            "North Carolina is known as Old North",
+            "North Carolina is known as Glory North",
+            "North Carolina is known as Ocean State",
+            "North Carolina is known as Palmetto State"
         ]
     },
     {
-        "Who designed the World War two Memorial in Washington D C?": [
+        "Who designed the World War two Memorial in Washington DC?": [
             "Friedrich Saint Florian",
             "Frank Gaylord",
             "Rudolph Evans",
@@ -127,26 +127,26 @@ var questions = [
     },
     {
         "What is the motto of Vermont?": [
-            "Freedom and unity",
-            "God, union, liberty",
-            "To each his own",
-            "All for fatherland"
+            "The motto is Freedom and unity",
+            "The motto is God, union, liberty",
+            "The motto is To each his own",
+            "The motto is All for fatherland"
         ]
     },
     {
         "What United States President was born in South Carolina?": [
-            "Andrew Jackson",
-            "James Abram Garfield",
-            "James Buchanan",
-            "Warren Harding"
+            "President Andrew Jackson",
+            "President James Abram Garfield",
+            "President James Buchanan",
+            "President Warren Harding"
         ]
     },
     {
         "What is the official floral emblem of Maryland?": [
-            "Black-eyed Susan",
-            "Common Sunflower",
-            "Goldenrod",
-            "Aster"
+            "The floral emblem is a Black-eyed Susan",
+            "The floral emblem is a Common Sunflower",
+            "The floral emblem is a Goldenrod",
+            "The floral emblem is an Aster"
         ]
     },
     {
@@ -175,10 +175,10 @@ var questions = [
     },
     {
         "What is the official state bird of Georgia?": [
-            "Brown Thrasher",
-            "Mockingbird",
-            "Yellowhammer",
-            "Robin"
+            "The Brown Thrasher",
+            "The Mockingbird",
+            "The Yellowhammer",
+            "The Robin"
         ]
     },
     {
@@ -217,8 +217,8 @@ var questions = [
         "Which of these is a nickname for Illinois?": [
             "The Prairie State",
             "The Hoosier State",
-            "Midway, U.S.A.",
-            "Wheat State"
+            "Midway U.S.A.",
+            "The Wheat State"
         ]
     },
     {
@@ -300,10 +300,10 @@ var questions = [
 
     {
         "What is the capital city of Kansas?": [
-            "Topeka",
-            "Wichita",
-            "Kansas City",
-            "Lawrence"
+            "The capital is Topeka",
+            "The capital is Wichita",
+            "The capital is Kansas City",
+            "The capital is Lawrence"
         ]
     },
 
@@ -345,7 +345,7 @@ var questions = [
 
     {
         "Which of these rivers does not run through Wyoming?": [
-            "Red River of the North",
+            "The Red River of the North",
             "The Bighorn River",
             "The Green River",
             "The Snake River"
@@ -408,10 +408,10 @@ var questions = [
 
     {
         "An item depicted on the Nevada seal symbolizes transportation. What item is this?": [
-            "Steam Train",
-            "Mule Train",
-            "Steam Ship",
-            "Airplane"
+            "A Steam Train",
+            "A Mule Train",
+            "A Steam Ship",
+            "An Airplane"
         ]
     },
 
@@ -435,10 +435,10 @@ var questions = [
 
     {
         "What two animals are shown on the Great Seal of Alaska?": [
-            "Fish and Seal",
-            "Grizzly Bear and Bald Eagle",
-            "Whale and Fish",
-            "Black Bear and Fish"
+            "The two animals shown are a Fish and Seal",
+            "The two animals shown are a Bear and Bald Eagle",
+            "The two animals shown are a Whale and Fish",
+            "The two animals shown are a Black Bear and Fish"
         ]
     },
     
