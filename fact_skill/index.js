@@ -24,7 +24,7 @@
 var APP_ID = undefined; //replace with "amzn1.echo-sdk-ams.app.c65fdd0b-7a27-47ea-8fb1-10df0bc37174";
 
 /**
- * Array containing space facts.
+ * Array containing AP History Exam facts.
  */
 var APHISTORY_FACTS = [
     "Copperheads nickname was given to those who opposed Lincoln's goal to forcefully restore the Confederate States into the Union.",
@@ -145,7 +145,7 @@ var APHISTORY_FACTS = [
 var AlexaSkill = require('./AlexaSkill');
 
 /**
- * SpaceGeek is a child of AlexaSkill.
+ * AP History Facts is a child of AlexaSkill.
  * To read more about inheritance in JavaScript, see the link below.
  *
  * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript#Inheritance
@@ -202,7 +202,7 @@ APhistory.prototype.intentHandlers = {
  * Gets a random new fact from the list and returns to the user.
  */
 function handleNewFactRequest(response) {
-    // Get a random space fact from the space facts list
+    // Get a random history fact from the history facts list
     var factIndex = Math.floor(Math.random() * APHISTORY_FACTS.length);
     var fact = APHISTORY_FACTS[factIndex];
 
@@ -214,7 +214,7 @@ function handleNewFactRequest(response) {
 
 // Create the handler that responds to the Alexa Request.
 exports.handler = function (event, context) {
-    // Create an instance of the SpaceGeek skill.
+    // Create an instance of the AP History Fact skill.
     var APhistory = new APhistory();
     APhistory.execute(event, context);
 };
@@ -245,7 +245,7 @@ exports.handler = function (event, context) {
 var APP_ID = undefined; //replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
 
 /**
- * Array containing space facts.
+ * Array containing AP History Exam facts.
  */
 var APHISTORY_FACTS = [
     "Copperheads nickname was given to those who opposed Lincoln's goal to forcefully restore the Confederate States into the Union.",
@@ -366,7 +366,7 @@ var APHISTORY_FACTS = [
 var AlexaSkill = require('./AlexaSkill');
 
 /**
- * SpaceGeek is a child of AlexaSkill.
+ * AP History Facts is a child of AlexaSkill.
  * To read more about inheritance in JavaScript, see the link below.
  *
  * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript#Inheritance
@@ -423,7 +423,7 @@ APhistory.prototype.intentHandlers = {
  * Gets a random new fact from the list and returns to the user.
  */
 function handleNewFactRequest(response) {
-    // Get a random space fact from the space facts list
+    // Get a random AP history fact from the AP history facts list
     var factIndex = Math.floor(Math.random() * APHISTORY_FACTS.length);
     var fact = APHISTORY_FACTS[factIndex];
 
