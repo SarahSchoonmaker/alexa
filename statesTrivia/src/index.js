@@ -38,7 +38,11 @@ var questions = [
     },
 
     {
+<<<<<<< HEAD
         "The final episode of The Sopranos was filmed at this popular New Jersey ice cream parlor": [
+=======
+        "The final episode of ‘The Sopranos’ was filmed at this popular New Jersey ice cream parlor": [
+>>>>>>> 00fd973790d4914c6612ce97b0d3707810af1935
             "Holsten’s in Bloomfield",
             "Halo Pub in Princeton",
             "Ice Cream on nine in Howell",
@@ -55,10 +59,17 @@ var questions = [
     },
     {
         "Which ocean is to the east of Massachusetts?": [
+<<<<<<< HEAD
             "The Atlantic ocean",
             "The Pacific ocean",
             "The Indian ocean",
             "The Antarctic ocean"
+=======
+            "Atlantic",
+            "Pacific",
+            "Indian",
+            "Antarctic"
+>>>>>>> 00fd973790d4914c6612ce97b0d3707810af1935
         ]
     },
     {
@@ -71,10 +82,17 @@ var questions = [
     },
     {
         "Which is Ohio’s state tree?": [
+<<<<<<< HEAD
             "The Buckeye tree",
             "The Oak tree",
             "The Pine tree",
             "The Apple tree"
+=======
+            "Buckeye tree",
+            "Oak tree",
+            "Pine tree",
+            "Apple tree"
+>>>>>>> 00fd973790d4914c6612ce97b0d3707810af1935
         ]
     },
     {
@@ -95,22 +113,37 @@ var questions = [
     },
     {
         "What is the motto of Virginia?": [
+<<<<<<< HEAD
             "The motto is Sic semper tyrannis",
             "The motto is Semper idem",
             "The motto is God, union, liberty",
             "The motto is Peace and justice"
+=======
+            "Sic semper tyrannis",
+            "The motto is Semper idem",
+            "The motto is God, union, liberty",
+            "Peace and justice"
+>>>>>>> 00fd973790d4914c6612ce97b0d3707810af1935
         ]
     },
     {
         "What do the two men depicted on West Virginia's seal and the state flag represent?": [
+<<<<<<< HEAD
             "The two men represent Agriculture and mining",
             "The two men represent Native Americans and European Settlers",
             "The two men represent Separation of Church and State",
             "The two men represent Exploration and farming"
+=======
+            "Agriculture and mining",
+            "Native Americans and European Settlers",
+            "Separation of Church and State",
+            "Exploration and farming"
+>>>>>>> 00fd973790d4914c6612ce97b0d3707810af1935
         ]
     },
     {
         "North Carolina is known by two nicknames. The more popular one is Tar Heel State; what is the less popular nickname?": [
+<<<<<<< HEAD
             "North Carolina is known as Old North",
             "North Carolina is known as Glory North",
             "North Carolina is known as Ocean State",
@@ -119,6 +152,16 @@ var questions = [
     },
     {
         "Who designed the World War two Memorial in Washington DC?": [
+=======
+            "Old North",
+            "Glory North",
+            "Ocean State",
+            "Palmetto State"
+        ]
+    },
+    {
+        "Who designed the World War two Memorial in Washington D C?": [
+>>>>>>> 00fd973790d4914c6612ce97b0d3707810af1935
             "Friedrich Saint Florian",
             "Frank Gaylord",
             "Rudolph Evans",
@@ -127,26 +170,47 @@ var questions = [
     },
     {
         "What is the motto of Vermont?": [
+<<<<<<< HEAD
             "The motto is Freedom and unity",
             "The motto is God, union, liberty",
             "The motto is To each his own",
             "The motto is All for fatherland"
+=======
+            "Freedom and unity",
+            "God, union, liberty",
+            "To each his own",
+            "All for fatherland"
+>>>>>>> 00fd973790d4914c6612ce97b0d3707810af1935
         ]
     },
     {
         "What United States President was born in South Carolina?": [
+<<<<<<< HEAD
             "President Andrew Jackson",
             "President James Abram Garfield",
             "President James Buchanan",
             "President Warren Harding"
+=======
+            "Andrew Jackson",
+            "James Abram Garfield",
+            "James Buchanan",
+            "Warren Harding"
+>>>>>>> 00fd973790d4914c6612ce97b0d3707810af1935
         ]
     },
     {
         "What is the official floral emblem of Maryland?": [
+<<<<<<< HEAD
             "The floral emblem is a Black-eyed Susan",
             "The floral emblem is a Common Sunflower",
             "The floral emblem is a Goldenrod",
             "The floral emblem is an Aster"
+=======
+            "Black-eyed Susan",
+            "Common Sunflower",
+            "Goldenrod",
+            "Aster"
+>>>>>>> 00fd973790d4914c6612ce97b0d3707810af1935
         ]
     },
     {
@@ -175,10 +239,17 @@ var questions = [
     },
     {
         "What is the official state bird of Georgia?": [
+<<<<<<< HEAD
             "The Brown Thrasher",
             "The Mockingbird",
             "The Yellowhammer",
             "The Robin"
+=======
+            "Brown Thrasher",
+            "Mockingbird",
+            "Yellowhammer",
+            "Robin"
+>>>>>>> 00fd973790d4914c6612ce97b0d3707810af1935
         ]
     },
     {
@@ -217,8 +288,13 @@ var questions = [
         "Which of these is a nickname for Illinois?": [
             "The Prairie State",
             "The Hoosier State",
+<<<<<<< HEAD
             "Midway U.S.A.",
             "The Wheat State"
+=======
+            "Midway, U.S.A.",
+            "Wheat State"
+>>>>>>> 00fd973790d4914c6612ce97b0d3707810af1935
         ]
     },
     {
@@ -300,10 +376,17 @@ var questions = [
 
     {
         "What is the capital city of Kansas?": [
+<<<<<<< HEAD
             "The capital is Topeka",
             "The capital is Wichita",
             "The capital is Kansas City",
             "The capital is Lawrence"
+=======
+            "Topeka",
+            "Wichita",
+            "Kansas City",
+            "Lawrence"
+>>>>>>> 00fd973790d4914c6612ce97b0d3707810af1935
         ]
     },
 
@@ -345,7 +428,11 @@ var questions = [
 
     {
         "Which of these rivers does not run through Wyoming?": [
+<<<<<<< HEAD
             "The Red River of the North",
+=======
+            "Red River of the North",
+>>>>>>> 00fd973790d4914c6612ce97b0d3707810af1935
             "The Bighorn River",
             "The Green River",
             "The Snake River"
@@ -408,10 +495,17 @@ var questions = [
 
     {
         "An item depicted on the Nevada seal symbolizes transportation. What item is this?": [
+<<<<<<< HEAD
             "A Steam Train",
             "A Mule Train",
             "A Steam Ship",
             "An Airplane"
+=======
+            "Steam Train",
+            "Mule Train",
+            "Steam Ship",
+            "Airplane"
+>>>>>>> 00fd973790d4914c6612ce97b0d3707810af1935
         ]
     },
 
@@ -435,10 +529,17 @@ var questions = [
 
     {
         "What two animals are shown on the Great Seal of Alaska?": [
+<<<<<<< HEAD
             "The two animals shown are a Fish and Seal",
             "The two animals shown are a Bear and Bald Eagle",
             "The two animals shown are a Whale and Fish",
             "The two animals shown are a Black Bear and Fish"
+=======
+            "Fish and Seal",
+            "Grizzly Bear and Bald Eagle",
+            "Whale and Fish",
+            "Black Bear and Fish"
+>>>>>>> 00fd973790d4914c6612ce97b0d3707810af1935
         ]
     },
     
