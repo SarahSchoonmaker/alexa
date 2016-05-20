@@ -1,7 +1,7 @@
 A Voice Interactive Restaurant Reservation Service
 
 Invocation Name: GetMeATable
-
+```
 {
 "intents": [
 {
@@ -63,10 +63,10 @@ Invocation Name: GetMeATable
 }
 ]
 }
-
+```
 
 On first use of the skill, provide phone number to validate account. 
-
+```
 Sample Utterances:
 User: Alexa, get me a reservation.
 Alexa: Ok, which city and state?
@@ -81,20 +81,27 @@ Alexa: Ok, May 23rd. What time?
 User: 7pm
 Alexa: Got it, 7pm 
 Alexa: Your reservation is complete (Use MailGun to send email confirmation to user). 
+```
 
+```
 
 Sample Utterances:
+
 MakeReservationIntent a reservation
+
 MakeReservationIntent get me a reservation
+
 MakeReservationIntent make me a reservation
+
 MakeReservationIntent make reservation
+
 MakeReservationIntent make a reservation
 
 Accessing Yelp's API:
 
 I'm using this template: https://arian.io/how-to-use-yelps-api-with-node/
 See yelpdata.js. I have tokens already for Yelp's API, so added those to the template, but might need to generate new ones. 
-
+```
 
 
 
