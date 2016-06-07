@@ -99,7 +99,6 @@ MakeReservationIntent make a reservation
 
 Accessing Yelp's API:
 
-
 ```
 
 I'm using this template: https://arian.io/how-to-use-yelps-api-with-node/ for accessing the Eat24 API, which is part of Yelp's reservation service. I have tokens already for Yelp's API, so added those to the template, but might need to generate new ones. 
