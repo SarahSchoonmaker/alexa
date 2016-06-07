@@ -1,6 +1,7 @@
-A Voice Interactive Restaurant Reservation Service
+A voice interactive service that lists the top inventions at IndieGogo. 
+Invocation Name: IndieGogoSearch
 
-Invocation Name: GetMeATable
+
 ```
 {
 "intents": [
