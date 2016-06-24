@@ -176,7 +176,7 @@ function getWelcomeResponse(response) {
  */
 
 function handleFirstEventRequest(intent, session, response) {
-    var daySlot = intent.slots.day;
+    //var daySlot = intent.slots.day;
     var repromptText = "With IndieGogoSearch, you can get today's most popular inventions. For example, you could say today's products, or tell me today's IndieGogo products.";
     // var monthNames = ["January", "February", "March", "April", "May", "June",
     //                   "July", "August", "September", "October", "November", "December"
@@ -199,7 +199,7 @@ function handleFirstEventRequest(intent, session, response) {
 
     // var cardTitle = "Events on " + monthNames[date.getMonth()] + " " + date.getDate();
 
-    getJsonEventsFromIndieGogo(response, function (campaigns, response) {
+    getJsonEventsFromIndieGogoSearch(response, function (campaigns, response) {
         var speechText = "",
             i;
         // sessionAttributes.text = events;
@@ -214,7 +214,7 @@ function handleFirstEventRequest(intent, session, response) {
                 //cardContent = cardContent + events[i] + " ";
                 speechText =  speechText + "<p>" +  campaigns["response"][i]["title"] + ", has " + campaigns["response"][i]["contributions_count"] + " contributors to date, and raised " + campaigns["response"][i]["currency"]["symbol"] + campaigns["response"][i]["collected_funds"] + ".</p>";
             }
-            speechText = speechText + " <p>Want to get more top products at IndieGogo?</p>";
+            speechText = "<p>Here are the top 3 projects from IndieGogo today.</p>" + speechText + " <p>Want to get more top products at IndieGogo?</p>";
             console.log("speechText: " + speechText);
             var speechOutput = {
                 speech: "<speak>" + speechText + "</speak>",
@@ -264,7 +264,7 @@ function handleNextEventRequest(intent, session, response) {
         }
     }
     var speechOutput = {
-        speech: "<speak>" + speechText + "</speak>",
+        speech: "<speak>Here are the next top 3 projects from IndieGogo today.</speak>",
         type: AlexaSkill.speechOutputType.SSML
     };
     var repromptOutput = {
@@ -274,7 +274,7 @@ function handleNextEventRequest(intent, session, response) {
     response.askWithCard(speechOutput, repromptOutput, cardTitle, cardContent);
 }
 
-function getJsonEventsFromIndiegogo(response, eventCallback) {
+function getJsonEventsFromIndieGogoSearch(response, eventCallback) {
     //var url = urlPrefix + day + '_' + date;
 
 
