@@ -65,34 +65,34 @@ var delimiterSize = 2;
  *
  * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript#Inheritance
  */
-var IndieGogoSearch = function() {
+var SearchIndieGogo = function() {
     AlexaSkill.call(this, APP_ID);
 };
 
 // Extend AlexaSkill
-IndieGogoSearch.prototype = Object.create(AlexaSkill.prototype);
-IndieGogoSearch.prototype.constructor = IndieGogoSearch;
+SearchIndieGogo.prototype = Object.create(AlexaSkill.prototype);
+SearchIndieGogo.prototype.constructor = SearchIndieGogo;
 
-IndieGogoSearch.prototype.eventHandlers.onSessionStarted = function (sessionStartedRequest, session) {
-    console.log("IndieGogoSearch onSessionStarted requestId: " + sessionStartedRequest.requestId
+SearchIndieGogo.prototype.eventHandlers.onSessionStarted = function (sessionStartedRequest, session) {
+    console.log("SearchIndieGogo onSessionStarted requestId: " + sessionStartedRequest.requestId
         + ", sessionId: " + session.sessionId);
 
     // any session init logic would go here
 };
 
-IndieGogoSearch.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
-    console.log("IndieGogoSearch onLaunch requestId: " + launchRequest.requestId + ", sessionId: " + session.sessionId);
+SearchIndieGogo.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
+    console.log("SearchIndieGogo onLaunch requestId: " + launchRequest.requestId + ", sessionId: " + session.sessionId);
     getWelcomeResponse(response);
 };
 
-IndieGogoSearch.prototype.eventHandlers.onSessionEnded = function (sessionEndedRequest, session) {
+SearchIndieGogo.prototype.eventHandlers.onSessionEnded = function (sessionEndedRequest, session) {
     console.log("onSessionEnded requestId: " + sessionEndedRequest.requestId
         + ", sessionId: " + session.sessionId);
 
     // any session cleanup logic would go here
 };
 
-IndieGogoSearch.prototype.intentHandlers = {
+SearchIndieGogo.prototype.intentHandlers = {
 
     "SearchIndieGogo": function (intent, session, response) {
         handleFirstEventRequest(intent, session, response);
@@ -115,7 +115,7 @@ IndieGogoSearch.prototype.intentHandlers = {
     },
 
     "AMAZON.HelpIntent": function (intent, session, response) {
-        var speechText = "With IndieGogo Search, you can discover the most popular trending products listed at IndieGogo." +
+        var speechText = "With SearchIndieGogo, you can discover the most popular trending products listed at IndieGogo." +
             "For example, you could say top trending for today, or you can say exit.";
         var repromptText = "which option would you like?";
         var speechOutput = {
@@ -153,10 +153,10 @@ IndieGogoSearch.prototype.intentHandlers = {
 function getWelcomeResponse(response) {
     // If we wanted to initialize the session to have some attributes we could add those here.
     var cardTitle = "Today at IndieGogo";
-    var repromptText = "With IndieGogo Search, you can discover the most popular trending products listed at IndieGogo.  " +
+    var repromptText = "With SearchIndieGogo, you can discover the most popular trending products listed at IndieGogo.  " +
             "For example, you could say top trending for today, or you can say exit.";
-    var speechText = "<p>IndieGogoSearch.</p> <p>What are the top products today?</p>";
-    var cardOutput = "IndieGogoSearch. Would you like a list of top products for today?";
+    var speechText = "<p>SearchIndieGogo.</p> <p>What are the top products today?</p>";
+    var cardOutput = "SearchIndieGogo. Would you like a list of top products for today?";
     // If the user either does not reply to the welcome message or says something that is not
     // understood, they will be prompted again with this text.
 
@@ -177,7 +177,7 @@ function getWelcomeResponse(response) {
 
 function handleFirstEventRequest(intent, session, response) {
     //var daySlot = intent.slots.day;
-    var repromptText = "With IndieGogoSearch, you can get today's most popular inventions. For example, you could say today's products, or tell me today's IndieGogo products.";
+    var repromptText = "With SearchIndieGogo, you can get today's most popular inventions. For example, you could say today's products, or tell me today's IndieGogo products.";
     // var monthNames = ["January", "February", "March", "April", "May", "June",
     //                   "July", "August", "September", "October", "November", "December"
     // ];
@@ -333,6 +333,6 @@ function getJsonEventsFromIndieGogoSearch(response, eventCallback) {
 // Create the handler that responds to the Alexa Request.
 exports.handler = function (event, context) {
     // Create an instance of the IndieGogoSearch Skill.
-    var skill = new IndieGogoSearch();
+    var skill = new SearchIndieGogo();
     skill.execute(event, context);
 };
